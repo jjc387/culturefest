@@ -8,15 +8,15 @@ h3{
 }
 
 #mission{
-    border-style: none;
     position: relative;
-    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
     float: left;
 }
 
 #about{
-    padding-top: 20px;
     width: 100%;
+    padding: 25px;
 }
 
 h4{
@@ -37,3 +37,4 @@ h2{
     float: none;
     font-size: 20px;
 }
+
