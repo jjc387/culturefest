@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     color: red !important;
+    font-family: impact;
 }
 
 h3{
@@ -11,9 +12,11 @@ h3{
     border-style: solid;
     border-width: 5px;
     position: relative;
-    color: black;
+    color: white;
     width: 30%;
     margin: 0 auto;
+    background: black;
+    font-family: fantasy;
 }
 
 .container{
@@ -22,7 +25,11 @@ h3{
     height: 800px;
 
 }
-
+body{
+    background-image: url("../img/Collage.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
 img{
     margin: 0 auto;
     display: block;
@@ -61,23 +68,23 @@ li a:hover {
 
 .jumbotron{
     margin-bottom: 0px;
-    padding-bottom: 0px;
-    background: white;
+    padding-bottom: 10px;
+    background: black;
     
 }
-#title{
-    padding-top: 20px;
-}
+
 
 .navbar{
-    padding-left: 200px;
     background: red;
-    margin-bottom: 0px;
-    margin-top: 0 !important;
     position:fixed;
     top:0;
     width:100%;
     z-index:100;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 address{
@@ -85,6 +92,10 @@ address{
 }
 #blurb{
     color: red;
-    padding-top: 30px;
+    font-family: impact;
+    background: black;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
  
 }
