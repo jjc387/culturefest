@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    color: red !important;
+    color: black !important;
 }
 
 h3{
@@ -17,6 +17,9 @@ h3{
     color: white;
     height: 300px;
     font-family: fantasy;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 }
 
 #about{
